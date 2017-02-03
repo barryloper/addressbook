@@ -1,0 +1,53 @@
+{
+  "name": "app.4bf27ffb41d00bc9ab89",
+  "content": {
+    "./node_modules/angular/index.js": {
+      "id": 0,
+      "meta": {}
+    },
+    "./src/app.js": {
+      "id": 1,
+      "meta": {}
+    },
+    "./node_modules/angular-route/angular-route.js": {
+      "id": 2,
+      "meta": {}
+    },
+    "./node_modules/angular-route/index.js": {
+      "id": 3,
+      "meta": {}
+    },
+    "./node_modules/angular/angular.js": {
+      "id": 4,
+      "meta": {}
+    },
+    "./src/view1/view1.html": {
+      "id": 5,
+      "meta": {}
+    },
+    "./src/view2/view2.html": {
+      "id": 6,
+      "meta": {}
+    },
+    "./src/components/version/interpolate-filter.js": {
+      "id": 7,
+      "meta": {}
+    },
+    "./src/components/version/version-directive.js": {
+      "id": 8,
+      "meta": {}
+    },
+    "./src/components/version/version.js": {
+      "id": 9,
+      "meta": {}
+    },
+    "./src/view1/view1.js": {
+      "id": 10,
+      "meta": {}
+    },
+    "./src/view2/view2.js": {
+      "id": 11,
+      "meta": {}
+    }
+  }
+}

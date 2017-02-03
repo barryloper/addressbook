@@ -1,0 +1,36 @@
+{
+  "name": "address-book",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Testing data models for api communication",
+  "repository": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "extract-loader": "^0.1.0",
+    "file-loader": "^0.10.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.28.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "protractor": "^5.1.0",
+    "ui-router": "^1.0.0-alpha.3",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^1.16.3"
+  },
+  "scripts": {
+    "update-deps": "npm update",
+    "prestart": "npm install",
+    "start": "webpack-dev-server --inline",
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor e2e-tests/protractor.conf.js"
+  }
+}
