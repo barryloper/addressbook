@@ -3,9 +3,10 @@ logs/*
 node_modules/
 tmp
 .DS_Store
-.idea/
 ~*
 *.pyc
 *.tmp
 build/
-
+.idea/*
+!.idea/runConfigurations/
+!.idea/inspectionProfiles/
